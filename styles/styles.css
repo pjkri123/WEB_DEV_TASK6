@@ -1,0 +1,26 @@
+div
+{
+    box-shadow: 0 0 10px green;
+    width: 250px;
+    height: 250px;
+    margin: 200px auto;
+    overflow: hidden;
+    border-radius: 5%;
+    transition: all 1s linear 1s;
+}
+div>img
+{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+div:hover
+{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+div:hover>img
+{
+    transition: all 1s linear 0s;
+    transform: scale(1.2,1.2);
+}
